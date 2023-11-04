@@ -1,6 +1,6 @@
-# Creating a Personal Finance Tracker Dapp on the Internet Computer (ICP)
+# Creating a Simple Personal Finance Tracker Dapp on the Internet Computer (ICP)
 
-In this tutorial, we will guide you through the process of creating a Personal Finance Tracker decentralized application (Dapp) on the Internet Computer (ICP). The Dapp will consist of both a backend written in Motoko and a frontend using React.
+In this tutorial, we will guide you through the process of creating a Simple Personal Finance Tracker decentralized application (Dapp) on the Internet Computer (ICP). The Dapp will consist of both a backend written in Motoko and a frontend using React.
 
 **Prerequisites:**
 
@@ -20,7 +20,7 @@ cd personalfinance
 Now open the folder in VS Code
 You will get followed folder structure
 
-![folderstructure](./folderstructure.jpg)
+![folderstructure](folderstructure.JPG)
 
 ## Step 2: Set Up the Backend
 
@@ -100,7 +100,7 @@ Download the frontend files from this [link](http://sirilux.in/wp-content/upload
 
 You should have following updated folder structure
 
-![updatedfolderstructure](updatedfolderstructure.jpg)
+![updatedfolderstructure](updatedfolderstructure.JPG)
 
 ## Step 4: Configure the Project for React Frontend
 
@@ -116,7 +116,7 @@ npm install --save-dev typescript ts-loader
 npm install --save-dev style-loader css-loader
 ```
 
-![reactdependenciesinstalled](reactdependenciesinstalled.jpg)
+![reactdependenciesinstalled](reactdependenciesinstalled.JPG)
 
 2.  Open the webpack.config.js file and make the following modifications:
 
@@ -128,7 +128,7 @@ entry: {
 },
 ```
 
-![webpackjsxconfig](webpackjsxconfig.jpg)
+![webpackjsxconfig](webpackjsxconfig.JPG)
 
 - Uncomment the module configuration to include TypeScript and CSS loaders.
 
@@ -141,7 +141,7 @@ module: {
 },
 ```
 
-![webpackcssconfig](webpackcssconfig.jpg)
+![webpackcssconfig](webpackcssconfig.JPG)
 
 - Create a tsconfig.json file in your project's root directory and add the following configuration:
 
@@ -184,7 +184,7 @@ Now download full frontend code with backend integration done from [here](http:/
 
 - Open AddIncomePage.jsx of your existing files and compare it with the downloaded AddIncomePage.jsx to see the differences.
 
-![appjsxdiff1](appjsxdiff1.jpg)
+![addincomejsxdiff1](addincomejsxdiff1.JPG)
 
 - Update the differences accordingly
 - Repeat the same process for
