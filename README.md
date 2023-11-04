@@ -184,7 +184,7 @@ Now download full frontend code with backend integration done from [here](http:/
 
 - Open AddIncomePage.jsx of your existing files and compare it with the downloaded AddIncomePage.jsx to see the differences.
 
-![addincomejsxdiff1](addincomejsxdiff1.JPG)
+![addincomejsxdiff1](addincomejsxdiff1.jpg)
 
 - Update the differences accordingly
 - Repeat the same process for
